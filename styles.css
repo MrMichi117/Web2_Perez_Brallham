@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.habilidadestarjeta p {
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+#txthabilidades,
+#txtfuturo {
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+
+}
+
+#txtfuturocont,
+#txtsobremi {
+
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+#Container1 {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+header {
+    padding: 0 30px;
+}
+
+.menu-principal ul {
+    list-style: circle;
+}
+
+.menu-principal li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.menu-principal li a:hover {
+    color: #ffffff;
+}
+
+#foto {
+    color: #ffffff;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #0f0101, #180303, #550e0e);
+}
+
+img {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(245, 4, 4);
+    margin: 40px;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    background: linear-gradient(to right, #000000, #1a0000, #1a0000, #000000);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hobbies-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.hobbie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+    background: linear-gradient(to right, #000000, #5e1010, #000000);
+    box-shadow: 0 0 100px rgb(0, 0, 0);
+    border-radius: 80%;
+}
+
+.hobbie-card:hover {
+    transform: scale(1.05);
+}
+
+.hobbie-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hobbie-card p {
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+#habilidades {
+    background: linear-gradient(to right, #000000, #450101, #450101, #000000);
+    text-align: center;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.habilidadesgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.habilidadestarjeta {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 20px solid #000000;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #360202, #000000);
+
+}
+
+.habilidadestarjeta img {
+    margin-bottom: 10px;
+}
+
+#futuro {
+    width: 100%;
+       background: linear-gradient(to right, #000000, #1a0000, #1a0000, #000000);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+#fin {
+    background-color: #000000fd;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 19px;
+    box-sizing: border-box;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+.contact-info a {
+    color: #1b81a9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .menu-principal {
+        padding: 20px 0;
+    }
+
+    .menu-principal ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+
+    .menu-principal li a {
+        font-size: 30px;
+    }
+
+    #foto {
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 2rem;
+    }
+
+    img {
+        width: 500px;
+        height: 600px;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    .hobbies-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    .hobbie-card img {
+        width: 100%;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+
+    .habilidadesgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+    .habilidadestarjeta img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    #txthabilidades {
+        font-size: 55px;
+    }
+
+
+
+    #futuro {
+        height: 50vh;
+    }
+
+    #txtfuturo {
+        font-size: 30px;
+
+    }
+
+    #txtfuturocont {
+        font-size: 30px;
+    }
+
+    #contacto,
+    #email,
+    #telefono,
+    #facebook {
+        font-size: 24px;
+    }
+
+    #fin {
+        font-size: 24px;
+    }
+}

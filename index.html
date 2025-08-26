@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="Container1">
+      <header>
+        <nav class="menu-principal">
+          <ul>
+            <li><a href="#foto">Inicio</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#futuro">Futuro</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <main>
+      <div id="foto">
+        <img src="img/brallham.jpg" alt="Foto de Brallham" />
+        <h1>
+          Hola soy Brallham, estudiante de Ingeniería de Sistemas en la
+          Universidad de la Amazonía. Actualmente tengo conocimientos sobre
+          programacion web y el manejo de estructuras dinamicas.
+        </h1>
+      </div>
+      <section id="hobbies" class="flex-wrap">
+        <h2>Mis hobbies</h2>
+        <div class="hobbies-grid">
+          <div class="hobbie-card">
+            <img src="img/games.jpg" alt="Videojuegos" />
+            <p>Videojuegos</p>
+          </div>
+          <div class="hobbie-card">
+            <img src="img/viajar.jpg" alt="Viajar" />
+            <p>Viajar</p>
+          </div>
+          <div class="hobbie-card">
+            <img src="img/anime.jpg" alt="Ver anime y series" />
+            <p>Ver anime y series</p>
+          </div>
+
+          <div class="hobbie-card">
+            <img src="img/moto.jpg" alt="Andar en moto" />
+            <p>Andar en moto</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2 id="txthabilidades">Mis habilidades</h2>
+        <div class="habilidadesgrid">
+          <div class="habilidadestarjeta">
+            <img
+              src="https://th.bing.com/th/id/OIP.jYcja5Jg64PLcKLvs6fBRwHaED?w=291&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+              alt="Figma"
+            />
+            <h3>Figma</h3>
+            <p>Diseño de interfaces y prototipos interactivos</p>
+          </div>
+          <div class="habilidadestarjeta">
+            <img
+              src="https://tse3.mm.bing.net/th/id/OIP.6-lfSvJAow2jZkmyLP_Y_gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+              alt="VS Code"
+            />
+            <h3>After Efects</h3>
+            <p>Edicion y creacion de Contenido</p>
+          </div>
+          <div class="habilidadestarjeta">
+            <img
+              src="https://th.bing.com/th/id/OIP.Xs3sT9SMa_Vc8d9e7EXQfQHaEK?w=269&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+              alt="Unity"
+            />
+            <h3>Unity</h3>
+            <p>Creacion de assets de videojuegos</p>
+          </div>
+          <div class="habilidadestarjeta">
+            <img
+              src="data:image/webp;base64,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"
+              alt="Blender"
+            />
+            <h3>Blender</h3>
+            <p>Modelado de objetos y entornos en 3D</p>
+          </div>
+          <div class="habilidadestarjeta">
+            <img
+              src="https://th.bing.com/th/id/OIP.Ml7hF9A0_iWTQq38eriVtgHaHa?w=187&h=187&c=7&r=0&o=7&pid=1.7&rm=3"
+              alt="Unreal Engine"
+            />
+            <h3>Unreal Engine</h3>
+            <p>Diseño de escenarios interactivos para videojuegos</p>
+          </div>
+          <div class="habilidadestarjeta">
+            <img
+              src="https://th.bing.com/th/id/OIP.0_BwdtgmCwRiuxNqbC-GnwHaHa?w=166&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+              alt="Java"
+            />
+            <h3>Java</h3>
+            <p>
+              Manejo de POO , Tecnicas de Programacion y manejo de estructuras
+              dinamicas como Arboles,Grafos,Listas,
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="futuro">
+        <p id="txtfuturo">A futuro</p>
+        <p id="txtfuturocont">
+          Estoy en el proceso de aprender y explorar estilos visuales modernos
+          con el fin de algun dia colaborar para una gran empresa.
+        </p>
+      </section>
+      <footer id="fin">
+        <p id="contacto">Contacto</p>
+        <div class="contact-info">
+          <p id="email">
+            Email:
+            <a href="mailto:brallhamperez@gmail.com">brallhamperez@gmail.com</a>
+          </p>
+          <p id="telefono">
+            Teléfono: <a href="tel:+573204849530">+573204849530</a>
+          </p>
+          <p id="facebook">
+            Facebook:
+            <a href="https://www.facebook.com/share/15uxsBLyRM/" target="_blank"
+              >facebook.com/brallham</a
+            >
+          </p>
+        </div>
+        <p>&copy; 2025 Brallham Perez — Todos los derechos reservados</p>
+      </footer>
+    </main>
+  </body>
+</html>
